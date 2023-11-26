@@ -23,3 +23,22 @@ The main purpose of this repository is to serve as the starting point for the Bi
 ## Pull requests welcome
 
 Have any improvements to be made? Feel free to make a Pull Request! 
+
+
+## Test result
+
+```bash
+➜  quickstart git:(master) ✗ yarn dev
+yarn run v1.22.19
+$ npx nodemon
+[nodemon] 2.0.22
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): src/**/*
+[nodemon] watching extensions: ts,js
+[nodemon] starting `npx ts-node ./src/index.ts`
+creating account
+address:  0x4691897505241a0B9D522EC1F78CEF8Ed35aC8c0
+transaction detail below
+https://mumbai.polygonscan.com/tx/0xda95189ddada8b38b2f58e4bed64580fc6571fa6c619d08efb4a33096ebda328
+[nodemon] clean exit - waiting for changes before restart
+```
